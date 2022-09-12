@@ -416,7 +416,10 @@ header{
         rgba(170, 219, 98, 0.516) 50%,
         rgba(0, 0, 0, 0.1) 30%,
         transparent 70%
-    ), url('./img/ct3.jpeg');;
+    ), url('./img/skincare10.jpeg');;
+
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
 
 }
 
@@ -483,6 +486,16 @@ header{
 /* Start Footer section */
 footer{
     background-color:rgb(50, 61, 40)
+}
+
+.footerlinks{
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.footerlinks:hover{
+    letter-spacing:2px;
 }
 /* End Footer section */
 
