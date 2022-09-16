@@ -180,8 +180,8 @@ header{
     
 } */
 
-.carousel-item{
-    height: 90vh;
+.banners1, .banners2, .banners3{
+    height: 100vh;
 }
 
 .banners1, .banners2, .banners3, .banners4{
@@ -408,6 +408,18 @@ header{
 }
 /* End Product Section */
 
+/* Start Feedback */
+#customer{
+    background-image: linear-gradient(to bottom,rgba(245, 239, 239, 0.3),rgba(215, 204, 204, 0.4)),url('./img/bc2.jpeg');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* End Feedback */
+
+
+
 /* Start SignUp section */
 
 .signup{
@@ -442,14 +454,14 @@ header{
 }
 
 .submit-btns{
-    background-color: white;
+    background-color: rgb(242, 189, 92);
     color: black;
     border: none;
     transition: all .3s;
 }
 
 .submit-btns:hover{
-    background-color: transparent;
+    background-color: rgba(242, 189, 92,0.5);
     color: black;
 }
 
